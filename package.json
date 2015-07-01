@@ -1,0 +1,36 @@
+{
+  "name": "tw-air-quality",
+  "version": "0.0.1",
+  "description": "Query air quality open data of Taiwan",
+  "keywords": [
+    "air quality", "PM2.5"
+  ],
+  "author": {
+    "name": "MJJ",
+    "email": "mjj2000@gmail.com"
+  },
+  "repository": "https://github.com/mjj2000/tw-air-quality",
+  "license": "MIT",
+  "main": "src/tw-air-quality.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "request": "2.58.0",
+    "promise": "7.0.3",
+    "lodash": "3.10.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-qunit": "^0.5.2",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jshint-stylish": "^1.0.0",
+    "load-grunt-tasks": "^2.0.0",
+    "time-grunt": "^1.0.0"
+  }
+}
