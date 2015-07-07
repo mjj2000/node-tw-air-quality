@@ -33,8 +33,8 @@ error|function|error callback with Error object as the only argument
 - queryCoByCity
 - queryO3ByCity
 - queryNo2ByCity
-- queryWindSpeed2ByCity
-- queryWindDirec2ByCity
+- queryWindSpeedByCity
+- queryWindDirecByCity
 - queryFpmiByCity
 - queryNoxByCity
 - queryNoByCity

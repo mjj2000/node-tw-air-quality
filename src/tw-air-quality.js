@@ -159,8 +159,8 @@
     queryCoByCity: createQueryer('CO'),
     queryO3ByCity: createQueryer('O3'),
     queryNo2ByCity: createQueryer('NO2'),
-    queryWindSpeed2ByCity: createQueryer('WindSpeed'),
-    queryWindDirec2ByCity: createQueryer('WindDirec'),
+    queryWindSpeedByCity: createQueryer('WindSpeed'),
+    queryWindDirecByCity: createQueryer('WindDirec'),
     queryFpmiByCity: createQueryer('FPMI'),
     queryNoxByCity: createQueryer('NOx'),
     queryNoByCity: createQueryer('No')

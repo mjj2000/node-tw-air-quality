@@ -1,6 +1,6 @@
 {
   "name": "tw-air-quality",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Query air quality open data of Taiwan",
   "keywords": [
     "air quality", "PM2.5"
