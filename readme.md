@@ -1,5 +1,5 @@
 # tw-air-quality
-![image](https://nodei.co/npm/tw-air-quality.png)
+[![NPM](https://nodei.co/npm/tw-air-quality.png?mini=true)](https://nodei.co/npm/tw-air-quality/)
 
 > Fetching air quality open data of Taiwan(http://data.gov.tw/node/6074)
 
