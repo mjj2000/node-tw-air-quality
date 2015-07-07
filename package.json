@@ -13,7 +13,8 @@
   "license": "MIT",
   "main": "src/tw-air-quality.js",
   "scripts": {
-    "test": "grunt"
+    "test": "grunt",
+    "coffee": "coffee --compile --watch src/*.coffee test/*.coffee"
   },
   "dependencies": {
     "request": "2.58.0",
