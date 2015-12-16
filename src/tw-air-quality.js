@@ -27,11 +27,15 @@
 
     fetchData = function() {
       return new Promise(function(resolve, reject) {
-        var reqHandler;
+        var options, reqHandler;
         if (reqHandler) {
           reqHandler.abort();
         }
-        return reqHandler = request(dataSourceUrl, function(error, response, body) {
+        options = {
+          url: dataSourceUrl,
+          followRedirect: true
+        };
+        return reqHandler = request(options, function(error, response, body) {
           if (!error && (response.statusCode === 200)) {
             arrAirData = JSON.parse(body);
             return resolve(arrAirData);

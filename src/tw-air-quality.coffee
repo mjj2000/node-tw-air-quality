@@ -26,7 +26,11 @@
         reqHandler.abort()
 
       # do send request
-      reqHandler = request dataSourceUrl, (error, response, body) ->
+      options = {
+        url: dataSourceUrl,
+        followRedirect: true
+      }
+      reqHandler = request options, (error, response, body) ->
         if !error and (response.statusCode == 200)
           arrAirData = JSON.parse(body)
           # success callback with all data in array
