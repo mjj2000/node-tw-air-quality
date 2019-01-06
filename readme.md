@@ -1,4 +1,4 @@
-# tw-air-quality
+# tw-air-quality(Deprecated)
 [![NPM](https://nodei.co/npm/tw-air-quality.png?mini=true)](https://nodei.co/npm/tw-air-quality/)
 
 > Fetching air quality open data of Taiwan(https://data.gov.tw/dataset/40448)
